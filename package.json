@@ -1,0 +1,17 @@
+{
+  "name": "uipath_api",
+  "version": "1.0",
+  "description": "UiPath_Api",
+  "main": "uipath_api.js",
+  "oracleMobile": {
+    "dependencies": {
+      "apis": {
+      },
+      "connectors": {
+      }
+    }
+  },
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  }
+}

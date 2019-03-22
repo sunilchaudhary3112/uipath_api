@@ -1,0 +1,15 @@
+#%RAML 0.8
+title: UiPath_Api
+version: 1.0
+baseUri: /mobile/custom/UiPath_Api
+protocols: [HTTPS]
+/components:
+  get:
+    protocols: [HTTPS]
+  /{componentName}:
+    uriParameters:
+      componentName:
+        displayName: componentName
+        type: string
+        required: true
+    post:
